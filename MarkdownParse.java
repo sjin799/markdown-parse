@@ -22,7 +22,7 @@ public class MarkdownParse {
             } else {
                 currentIndex++;
 
-            } 
+            }
         }
         return toReturn;
     }
