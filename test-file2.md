@@ -1,2 +1,2 @@
-[a link](https://something.org)
-[this is not a link](something.com)
+[a link!]hkdahd(wkdwhkd)
+[another link!](hihi)
