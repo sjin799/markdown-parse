@@ -1,2 +1,2 @@
-[a link!]hkdahd(wkdwhkd)
+[invalid link](not a url
 [another link!](hihi)
