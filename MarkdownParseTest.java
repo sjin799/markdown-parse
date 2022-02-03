@@ -30,7 +30,13 @@ public class MarkdownParseTest {
         ArrayList<String> testList = new ArrayList<>();
         assertEquals(testList, MarkdownParse.getLinks(contents));
     }
+
+    @Test
+    public void test4() throws IOException{
+        String contents = Files.readString(Path.of("./test4.md"));
+        ArrayList<String> testList = new ArrayList<>();
+        assertEquals(testList, MarkdownParse.getLinks(contents));
+    }
+}
     // only takes 4 second to test all cases
 
-
-}
