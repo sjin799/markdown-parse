@@ -33,8 +33,9 @@ public class MarkdownParseTest {
 
     @Test
     public void test4() throws IOException{
-        String contents = Files.readString(Path.of("./test4.md"));
+        String contents = Files.readString(Path.of("./test-file4.md"));
         ArrayList<String> testList = new ArrayList<>();
+        testList.add("google");
         assertEquals(testList, MarkdownParse.getLinks(contents));
     }
 }
